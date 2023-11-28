@@ -54,3 +54,4 @@ jobs:
         resourceGroupName: ${{ env.RESOURCE_GROUP_DEV }}
         template: ./main.bicep
         parameters: ./parameters/main.json
+        
