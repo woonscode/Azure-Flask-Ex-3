@@ -77,7 +77,6 @@ module webApp 'modules/web/site/main.bicep' = {
       WEBSITES_ENABLE_APP_SERVICE_STORAGE: false
       DOCKER_REGISTRY_SERVER_URL: ['iewoonhaocontainerregistry.azurecr.io']
       DOCKER_REGISTRY_SERVER_USERNAME: ['IEwoonhaoContainerRegistry']
-      DOCKER_REGISTRY_SERVER_PASSWORD: ['Pr+WhqctSOTyb4pfML+0IY+ENYGlDoUn/6wrelTkrm+ACRAa+xL3']
     }
   }
   dependsOn: [
