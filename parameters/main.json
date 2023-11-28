@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "containerRegistryName": {
-            "value": "wh-container-registry"
+            "value": "IEwoonhaoContainerRegistry"
         },
         "appServicePlanName": {
-            "value": "wh-appServicePlan"
+            "value": "whAppServicePlan"
         },
         "webAppName": {
-            "value": "wh-webApp"
+            "value": "whWebApp"
         },
         "containerRegistryImageName": {
             "value": "flask-demo"
@@ -20,5 +20,6 @@
         "location": {
             "value": "Brazil South"
         }
+        
     }
 }

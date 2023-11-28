@@ -75,9 +75,9 @@ module webApp 'modules/web/site/main.bicep' = {
     }
     appSettingsKeyValuePairs: {
       WEBSITES_ENABLE_APP_SERVICE_STORAGE: false
-      DOCKER_REGISTRY_SERVER_URL: ['the url of your azure docker container registry']
-      DOCKER_REGISTRY_SERVER_USERNAME: ['the user name of your docker container registry']
-      DOCKER_REGISTRY_SERVER_PASSWORD: ['the user password of your docker container registry']
+      DOCKER_REGISTRY_SERVER_URL: ['iewoonhaocontainerregistry.azurecr.io']
+      DOCKER_REGISTRY_SERVER_USERNAME: ['IEwoonhaoContainerRegistry']
+      DOCKER_REGISTRY_SERVER_PASSWORD: ['Pr+WhqctSOTyb4pfML+0IY+ENYGlDoUn/6wrelTkrm+ACRAa+xL3']
     }
   }
   dependsOn: [
